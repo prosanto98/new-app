@@ -1,0 +1,46 @@
+.ui-temp-item{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 34px;
+    margin-bottom: 10rem;
+}
+.ui-link{
+    margin-top: 96px;
+    text-align: center;
+}
+.ui-link a{
+    text-decoration: none;
+    margin-left: 16px;
+    color: black;
+}
+a.all-link{
+    color: blue;
+}
+.ui-temp{
+    height: 576px;
+    width: 623px;
+    margin-top: 48px;
+}
+.ui-temp img{
+    width: 100%;
+}
+.ui-title h3{
+    font-size: 38px;
+    font-weight: 600;
+    padding-top: 24px;
+}
+.ui-title p{   
+    color: #282938;
+    padding-top: 12px;
+}
+.more{
+    margin-top: 24px;
+}
+.more a{
+    text-decoration: none;
+    color: black;
+}
+.pricing-arrow{
+    color: black;
+    margin-left: 10px;
+}

@@ -1,0 +1,78 @@
+.price-title{
+    text-align: center;
+    margin-top: 128px;
+}
+.price-title h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+.price-title p{
+   color: #282938;
+   padding-top: 16px;
+}
+.price-body{
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 7rem;
+}
+.price-card{
+    height: 700px;
+    width: 406px;
+    background-color: #F4F6FC;
+    border-radius: 12px;
+}
+.pr-head{
+    padding-top: 64px;
+    display: flex;
+    align-items: center;
+}
+.pr-head h3{
+    font-size: 38px;
+    font-weight: 600;
+}
+.pr-head p{
+    color: #2405F2;
+    padding-left: 8px;
+}
+.price-details{
+    margin-left: 48px;
+}
+.pr-dt h6{
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.pr-dt p{
+    color: #282938;
+    padding-top: 8px;
+}
+.details-box{
+    margin-top: 78px;
+}
+.details-box p{
+    margin-top: 20px;
+}
+.pr-p{
+    margin-top: 79px;
+}
+a.get{
+    padding: 16px 77px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 41px;
+    color: black;
+    transition: 0.5s;   
+}
+a.get:hover{
+    background-color: #282938;
+    color: white;
+}
+.f-paly{
+    display: flex;
+    align-items: flex-end
+}
+.f-paly p{
+    
+    padding-left: 15px;
+}

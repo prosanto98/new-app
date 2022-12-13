@@ -1,0 +1,17 @@
+.ux-header{
+    text-align: center;
+    margin-top: 128px;
+}
+.ux-header h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+.post{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+.ux-img{
+    margin-top: 48px;
+}
