@@ -46,7 +46,7 @@
     color: white;
 }
 
-a.contact-us{
+.contact-us{
     padding: 16px 48px;
     text-decoration: none;
     border: 1px solid white;
@@ -56,6 +56,6 @@ a.contact-us{
     color: white;
     transition: 0.5s;
 }
-a.contact-us:hover{
+.contact-us:hover{
     background-color: #FCD980;
 }

@@ -19,7 +19,9 @@ function Navbar() {
                         <li><Link to ="/faq">Faq</Link></li>
                         <li><Link to ="/blog">Blog</Link></li>
                     </ul>
-                        <a className="contact-us"><Link to ="/contact">Contact Us</Link></a>
+                    <div className='contact-us'>
+                        <Link to ="/contact">Contact Us</Link>
+                    </div>
                 </div>
             </div>
         </div>
