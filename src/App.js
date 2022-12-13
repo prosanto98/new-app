@@ -1,5 +1,4 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Faqworkbanner from './components/faqworkbanner/Faqworkbanner';
 import Main from './components/layout/Main';
 import Aboutus from './pages/about/Aboutus';
 import Blogs from './pages/blog/Blogs';

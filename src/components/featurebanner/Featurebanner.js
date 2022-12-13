@@ -16,7 +16,6 @@ const Featurebanner = () => {
                     </p>
                     <div className="btn">
                         <a href="#view-pricing" className="view">View Pricing</a>
-                        <a href="#not-show" className="pricing"></a>
                         
                     </div>
                 </div>

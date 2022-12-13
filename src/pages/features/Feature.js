@@ -1,5 +1,4 @@
 import React from 'react'
-import Banner from '../../components/banner/Banner'
 import Benifit from '../../components/benifit/Benifit'
 import Featurebanner from '../../components/featurebanner/Featurebanner'
 import Groupstudy from '../../components/groupstudy/Groupstudy'
