@@ -2,7 +2,7 @@ import React from 'react'
 import "./client.css"
 import Slider from "react-slick";
  const Client = () => {
-    function SampleNextArrow(props) {
+    function SamplePrevArrow(props) {
 		const { onClick } = props;
 		return (
 		  <div onClick={onClick} className="i-left">
@@ -12,7 +12,7 @@ import Slider from "react-slick";
 		);
 	  }
 	  
-	  function SamplePrevArrow(props) {
+	  function SampleNextArrow(props) {
 		const { onClick } = props;
 		return (
 		  <div onClick={onClick} className="i-right">
@@ -26,8 +26,8 @@ import Slider from "react-slick";
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-		 nextArrow: <SampleNextArrow />,
-      prevArrow: <SamplePrevArrow />
+		prevArrow: <SamplePrevArrow />,
+		nextArrow: <SampleNextArrow />
       };
   return (
     <div className="client">
@@ -49,19 +49,17 @@ import Slider from "react-slick";
 							<div className="president">
 								<div className="president-left">
 									<img src="images/president.png" alt=""/>
-									<div className="prisedent-name">
-										<h5>Jenny Wilson</h5>
-										<h6>Vice President</h6>
+									   <div className="prisedent-name">
+										  <h5>Jenny Wilson</h5>
+										 <h6>Vice President</h6>
 										
-									</div>
+									    </div>
 								</div>
 								<div className="arrow-icon">
-									{/* <i className="fa-solid i-left fa-chevron-left"></i>
-									<i className="fa-solid i-right fa-chevron-right"></i> */}
-								</div>
 							</div>
 						</div>
-					<div>
+					</div>
+				        <div>
 							<h5>
 								"The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus."
 							</h5>
@@ -71,16 +69,13 @@ import Slider from "react-slick";
 									<img src="images/president.png" alt=""/>
 									<div className="prisedent-name">
 										<h5>Jenny Wilson</h5>
-										<h6>Vice President</h6>
-										
+										<h6>Vice President</h6>	
 									</div>
 								</div>
 								<div className="arrow-icon">
-									{/* <i className="fa-solid i-left fa-chevron-left"></i>
-									<i className="fa-solid i-right fa-chevron-right"></i> */}
 								</div>
 							</div>
-						</div>
+					    </div>
                     </Slider>
                 </div>			
             </div>
