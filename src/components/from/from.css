@@ -53,10 +53,8 @@
     margin-top: 40px;
 }
 input{
-    /* padding: 0 32px; */
     height: 64px;
     width: 432px;
-    background-color: #1C1E53;
     border: 1.5px solid rgba(255, 255, 255, 0.05);
     border-radius: 8px;
 }
