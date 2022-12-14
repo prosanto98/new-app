@@ -1,6 +1,6 @@
 import React from 'react'
 import "./product.css"
-
+import Featurepdc from '../reusable/Featurepdc'
 export const Product = () => {
   return (
     <div className="features">
@@ -18,60 +18,12 @@ export const Product = () => {
                 </h2>
             </div>
             <div className="fetures-card">
-                <div className="card-details">
-                    <div className="card-details-part">
-                        <i className="fa-solid icon-item fa-people-roof"></i>
-                        <h6>Uses Client First</h6>
-                        <p>
-                            Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. 
-                        </p>
-                    </div>
-                </div>
-                <div className="card-details">
-                    <div className="card-details-part">
-                        <i className="fa-solid icon-item fa-circle-check"></i>
-                        <h6>Two Free Revision Round</h6>
-                        <p>
-                            Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. 
-                        </p>
-                    </div>
-                </div>
-                <div className="card-details">
-                    <div className="card-details-part">
-                        <i className="fa-solid icon-item fa-pen-ruler"></i>
-                        <h6>Template Customization</h6>
-                        <p>
-                            Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. 
-                        </p>
-                    </div>
-                </div>
-                <div className="card-details">
-                    <div className="card-details-part">
-                        <i className="fa-solid icon-item fa-comments-dollar"></i>
-                        <h6>24/7 Support</h6>
-                        <p>
-                            Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. 
-                        </p>
-                    </div>
-                </div>
-                <div className="card-details">
-                    <div className="card-details-part">
-                        <i className="fa-solid icon-item fa-stopwatch"></i>
-                        <h6>Quick Delivery</h6>
-                        <p>
-                            Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. 
-                        </p>
-                    </div>
-                </div>
-                <div className="card-details">
-                    <div className="card-details-part">
-                        <i className="fa-regular icon-item fa-note-sticky"></i>
-                        <h6>Hands-on approach</h6>
-                        <p>
-                            Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. 
-                        </p>
-                    </div>
-                </div>
+                <Featurepdc heading ="Uses Client First" icon="fa-solid icon-item fa-people-roof"/>
+                <Featurepdc heading ="Two Free Revision Round" icon="fa-solid icon-item fa-circle-check"/>
+                <Featurepdc heading ="Template Customization" icon="fa-solid icon-item fa-pen-ruler"/>
+                <Featurepdc heading ="24/7 Support" icon="fa-solid icon-item fa-comments-dollar"/>
+                <Featurepdc heading ="Quick Delivery" icon="fa-solid icon-item fa-stopwatch"/>
+                <Featurepdc heading ="Hands-on approach" icon="fa-regular icon-item fa-note-sticky"/>
             </div>
         </div>
     </div>

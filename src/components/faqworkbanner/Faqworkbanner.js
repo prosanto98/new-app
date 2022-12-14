@@ -4,7 +4,7 @@ const Faqworkbanner = () => {
   return (
     <section className="work-banner">
     <div className="container">
-        <div className="work-details">
+        <div className="work-details change-align">
             <div className="p">
                 <p>What we created</p>
             </div>

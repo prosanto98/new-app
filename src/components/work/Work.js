@@ -1,5 +1,6 @@
 import React from 'react'
 import "./work.css"
+import WorkReusable from '../reusable/WorkReusable'
 function Work() {
   return (
     <div className="work">
@@ -17,26 +18,14 @@ function Work() {
                 </div>
             </div>
             <div className="work-section">
-                <div className="card-1">
-                    <img src="images/pointer 1.png" alt=""/>
-                    <h5>Strategy</h5>
-                    <p>Euismod faucibus turpis eu gravida <br/> mi. Pellentesque et velit aliquam .</p>
-                </div>
-                <div className="card-2 card">
-                    <img src="images/pointer 2.png" alt=""/>
-                    <h5>Wireframing</h5>
-                    <p>Euismod faucibus turpis eu gravida <br/> mi. Pellentesque et velit aliquam .</p>
-                </div>
-                <div className="card-3 gap">
-                    <img src="images/pointer 3.png" alt=""/>
-                    <h5>Wireframing</h5>
-                    <p>Euismod faucibus turpis eu gravida <br/> mi. Pellentesque et velit aliquam .</p>
-                </div>
-                <div className="card-4 gap card">
-                    <img src="images/pointer 4.png" alt=""/>
-                    <h5>Wireframing</h5>
-                    <p>Euismod faucibus turpis eu gravida <br/> mi. Pellentesque et velit aliquam .</p>
-                </div>
+                <WorkReusable title="Strategy" pera ="Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam.1"
+                img ="images/pointer 1.png"/>
+                <WorkReusable title="Wireframing" pera ="Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam.2"
+                img ="images/pointer 2.png"/>
+                <WorkReusable title="Wireframing" pera ="Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam.3"
+                img ="images/pointer 3.png"/>
+                <WorkReusable title="Wireframing" pera ="Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam.4"
+                img ="images/pointer 4.png"/>
             </div>
         </div>
     </div>
