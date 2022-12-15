@@ -19,8 +19,8 @@ function Navbar() {
                         <li><Link to ="/faq">Faq</Link></li>
                         <li><Link to ="/blog">Blog</Link></li>
                     </ul>
-                    <div className='contact-us'>
-                        <Link to ="/contact">Contact Us</Link>
+                    <div className="contact-us ">
+                        <Link to="/contact"style={{textDecoration:'none'}}><div className='change-contact'>Contact Us</div></Link>
                     </div>
                 </div>
             </div>
