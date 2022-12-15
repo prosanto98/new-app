@@ -20,7 +20,7 @@ const Featurebanner = () => {
                     </div>
                 </div>
                 <div className="banner-logo">
-                    <img src="images/banner-img.png" alt="banner-imag"/>
+                    <img src="images/featurebanner.png" alt="banner-imag"/>
                 </div>
             </div>
         </div>

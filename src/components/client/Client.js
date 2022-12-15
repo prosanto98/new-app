@@ -66,7 +66,24 @@ import Slider from "react-slick";
 							
 							<div className="president">
 								<div className="president-left">
-									<img src="images/president.png" alt=""/>
+									<img src="images/slide2.png" alt=""/>
+									<div className="prisedent-name">
+										<h5>Jenny Wilson</h5>
+										<h6>Vice President</h6>	
+									</div>
+								</div>
+								<div className="arrow-icon">
+								</div>
+							</div>
+					    </div>
+						<div>
+							<h5>
+								"The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus."
+							</h5>
+							
+							<div className="president">
+								<div className="president-left">
+									<img src="images/slide3.png" alt=""/>
 									<div className="prisedent-name">
 										<h5>Jenny Wilson</h5>
 										<h6>Vice President</h6>	
