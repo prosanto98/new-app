@@ -55,7 +55,7 @@
 input{
     height: 64px;
     width: 432px;
-    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    /* border: 1.5px solid rgba(255, 255, 255, 0.05); */
     border-radius: 8px;
 }
 .inquari-details{
