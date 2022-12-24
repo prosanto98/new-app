@@ -18,7 +18,7 @@ function Navbar() {
                         <li><Link to ="/pricing">Pricing</Link></li>
                         <li><Link to ="/faq">Faq</Link></li>
                         <li><Link to ="/blog">Blog</Link></li>
-                        <li><Link to ="/exblog">Exblog</Link></li>
+                        <li><Link to ="/exblog">Blogs</Link></li>
                     </ul>
                     <div className="contact-us ">
                         <Link to="/contact"style={{textDecoration:'none'}}><div className='change-contact'>Contact Us</div></Link>
