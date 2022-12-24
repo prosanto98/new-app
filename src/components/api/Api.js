@@ -43,7 +43,6 @@ let prev = () =>{
     <div>
         <h2 style={{textAlign:"center"}}>Api check</h2>
         <Post post={allPost}/>
-
         <Pagi total={info.length}perPage={perPage} paginate={paginate} next={next} prev={prev} currentPage ={currentPage}/>
     </div>
   )

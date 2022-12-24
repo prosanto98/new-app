@@ -6,7 +6,7 @@ import Slider from "react-slick";
 		const { onClick } = props;
 		return (
 		  <div onClick={onClick} className="i-left">
-			<i class="fa-solid fa-chevron-left"></i>
+			<i className="fa-solid fa-chevron-left"></i>
 		  </div>
 		  
 		);
@@ -16,7 +16,7 @@ import Slider from "react-slick";
 		const { onClick } = props;
 		return (
 		  <div onClick={onClick} className="i-right">
-			<i class="fa-solid fa-chevron-right"></i>
+			<i className="fa-solid fa-chevron-right"></i>
 		  </div>
 		);
 	  }
