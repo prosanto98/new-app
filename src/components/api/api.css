@@ -1,0 +1,25 @@
+.api-main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.api-item{
+    width: 32%;
+}
+.api-item h3{
+    padding: 10px 20px;
+    background-color:tomato;
+    color: #fff;
+    display: inline-block;
+}
+.container,
+.pagination{
+    max-width: 1295px;
+    width: 100%;
+    margin:0 auto;
+}
+.pagination{
+    margin-bottom: 5px;
+}
+
+
