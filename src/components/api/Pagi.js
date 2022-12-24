@@ -11,7 +11,7 @@ const Pagi = ({total,perPage,paginate,next,prev,currentPage}) => {
     <Pagination>
     <Pagination.First onClick={prev}/>
     {PageNumber.map((item)=>(
-    <Pagination.Item onClick={()=>paginate(item)} className={currentPage == item && "active"}>{item}
+    <Pagination.Item onClick={()=>paginate(item)} className={currentPage === item && "active"}>{item}
     </Pagination.Item>
     ))}
     <Pagination.Last onClick={next}/>
