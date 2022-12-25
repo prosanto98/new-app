@@ -36,7 +36,7 @@ const Contactus = () => {
                         </div>
                         <div className="area">
                             <h3>Message</h3>
-                            <textarea  cols="140" rows="8"></textarea>
+                            <textarea  cols="110" rows="8"></textarea>
                         </div>
                     </div>
                     <div className="send-msg">
