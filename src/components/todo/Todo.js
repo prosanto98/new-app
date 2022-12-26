@@ -37,7 +37,7 @@ const Todo = () => {
                 setTodoshow(todoarr)
         });
 
-    },[])
+    },[db])
 
   return (
     <div className='container py-5'>
