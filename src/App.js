@@ -8,7 +8,7 @@ import Faqg from './pages/faq/Faqg';
 import Feature from './pages/features/Feature';
 import Home from './pages/home/Home';
 import Priceing from './pages/pricing/Priceing';
-
+import Todopage from './pages/todo/Todopage';
 function App() {
   const router = createBrowserRouter([
       {
@@ -33,6 +33,9 @@ function App() {
          },
          {
           path:'/exblog',element:<Exblog></Exblog>
+         },
+         {
+          path:'/todo',element:<Todopage></Todopage>
          },
          {
           path:'/contact',element:<Contact></Contact>
