@@ -7,6 +7,7 @@ import { initializeApp } from "firebase/app";
 const firebaseConfig = {
   apiKey: "AIzaSyCZLC5S_dNq8KkeFKCI_52rDDt8MhnqCFA",
   authDomain: "finesweet-82b15.firebaseapp.com",
+  databaseURL: "https://finesweet-82b15-default-rtdb.firebaseio.com",
   projectId: "finesweet-82b15",
   storageBucket: "finesweet-82b15.appspot.com",
   messagingSenderId: "697958325457",
@@ -14,6 +15,6 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+initializeApp(firebaseConfig);
 
 export default firebaseConfig;

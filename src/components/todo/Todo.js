@@ -55,7 +55,9 @@ const Todo = () => {
             <div className='show-data'>
                   <ul>
                     {todoshow.map((showdata) =>(
-                      <li>{showdata.todo}</li>
+                      <li key={todo.id}>
+                        {showdata.todo}
+                      </li>
                     ))}
                     
                   </ul>
