@@ -59,6 +59,8 @@ const Todo = () => {
     let handlefinalUpload = (id,value)=>{
       update (ref(db,"todo/" +id),{
         todo:value
+      }).then(()=>{
+        setUpdatetext(false)
       })
     }
 
