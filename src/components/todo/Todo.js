@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./todo.css"
-import { getDatabase,ref, set,push,onValue  } from "firebase/database";
+import { AiFillDelete,AiFillEdit} from 'react-icons/ai';
+import { getDatabase,ref, set,push,onValue, remove, update  } from "firebase/database";
 const Todo = () => {
     
 
@@ -8,7 +9,9 @@ const Todo = () => {
     const[todo,setTodo] = useState ("")
     const[todoshow,setTodoshow] = useState ([])
     const[todoerr,setTodoerr] = useState ("")
-
+    const[updatetext,setUpdatetext] = useState (false)
+    const[editid,setEditid] = useState ("")
+    const[editvalue,setEditvalue] = useState ("")
     let handleInput = (e) => {
         setTodo(e.target.value);
     }
@@ -32,12 +35,33 @@ const Todo = () => {
             onValue(starCountRef, (snapshot) => {
                 let todoarr = []
                 snapshot.forEach((item) =>{
-                    todoarr.push(item.val());
+                    todoarr.push({...item.val(), key:item.key});
                 })     
                 setTodoshow(todoarr)
         });
-
     },[db])
+
+    let handleDelete = (id)=>{
+      remove (ref(db,"todo/" +id))
+    }
+
+    let handleEdit = (id, value)=>{
+      setUpdatetext(!updatetext)
+      setEditid(id);
+      setEditvalue(value);
+      
+    }
+
+    let handleUpload = (e)=>{
+      setEditvalue(e.target.value)
+    }
+    
+    let handlefinalUpload = (id,value)=>{
+      update (ref(db,"todo/" +id),{
+        todo:value
+      })
+    }
+
 
   return (
     <div className='container py-5'>
@@ -54,13 +78,21 @@ const Todo = () => {
 
             <div className='show-data'>
                   <ul>
-                    {todoshow.map((showdata) =>(
-                      <li key={todo.id}>
-                        {showdata.todo}
+                    {todoshow.map((showdata,i) =>(
+                      <li key={i} className='onee'>
+                        {showdata.todo}<AiFillDelete onClick={()=>handleDelete(showdata.key)} className='icon-del'/>
+                        <AiFillEdit onClick={()=>handleEdit(showdata.key,showdata.todo)} className='edite'/>
                       </li>
-                    ))}
-                    
+                    ))}                 
                   </ul>
+                  {updatetext ? <div className='mt-5'>
+                     <input className='inputtodo' onChange={handleUpload}/>
+                     <br/>
+                     <button className='todobtn btncng' onClick={() => handlefinalUpload(editid,editvalue)}>Update</button>
+                  </div>: ""}
+                  
+
+
             </div>
         </div>      
       

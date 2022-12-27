@@ -11,6 +11,9 @@
     border-radius: 10px;
     margin-left: 5px;
 }
+.btncng{
+    margin-top: 10px;
+}
 .show-data ul{
     margin-top: 10px;
     padding: 0 !important;
@@ -22,3 +25,22 @@
     width: 400px;
     margin: 0 auto;
 }
+.onee{
+    text-align: center;
+    position: relative;
+}
+.icon-del{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    transform: translate(-50%);
+}
+.edite{
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    transform: translate(-50%);
+}
+
+
+
